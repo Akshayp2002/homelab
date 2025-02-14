@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { GitStatsComponent } from '../git-stats/git-stats.component';
-import { SocialsComponent } from "../socials/socials.component";
+import { PortsComponent } from '../ports/ports.component';
+
 
 @Component({
   selector: 'app-landing-page',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive, GitStatsComponent, SocialsComponent],
+  imports: [RouterLink, RouterLinkActive, PortsComponent],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css'
 })
